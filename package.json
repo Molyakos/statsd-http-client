@@ -1,0 +1,28 @@
+{
+  "name": "statsd-http-client",
+  "version": "1.0.4",
+  "description": "StatsD client for browser over HTTP",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/molyakos/statsd-http-client.git"
+  },
+  "keywords": [
+    "statsd",
+    "client",
+    "metrics"
+  ],
+  "author": "Sergey Molyak <molyakos@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "12.6.2",
+    "typescript": "3.4.5"
+  },
+  "dependencies": {
+    "axios": "0.19.0"
+  }
+}
